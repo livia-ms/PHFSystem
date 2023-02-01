@@ -1,38 +1,41 @@
 import React from "react";
 
 import styled from "styled-components";
-import background from "../../image/engenharia.jpg";
+import background from "../../image/engenharia2.jpg";
 
-
-const Img = styled.img`
-    width: 100%;
-    height: 200px;
-
-`;
 const BodyHome = styled.div`
     width: 100%;
     height:100vh;
-    background-color: #636e72;
-    color: #000;
     text-align: center;
 `;
 
+const HomeTittle = styled.h2`
+    font-size:3.3rem;
+    letter-spacing: 4px;
+    padding-top: 185px;
+    color:#fff;
+`;
+
+const TextContentPrimary = styled.p`
+    font-size:1.5rem;
+    letter-spacing: 2px;
+    padding-top:100px;
+`;
 
 
 function Home() {
     return(
         <BodyHome style={{backgroundImage: `url(${background})`,
-                          backgroundSize: "cover",
-                          backgroundRepeat: "no-repeat"
+                        backgroundSize: "cover",
+                        backgroundRepeat: "no-repeat",
         }}>
-            <h2>PHF Engenharia - Home Section</h2> 
 
-            <p>Nossa empresa é especializada na confecção de plantas
-                das mais diversas formas que você pode imaginar</p>  
-            
+        <HomeTittle>PHF Engenharia - Home Section</HomeTittle> 
+
+        <TextContentPrimary>Nossa empresa é especializada na confecção de plantas
+        das mais diversas formas que você pode imaginar.</TextContentPrimary>
         </BodyHome>
 
-        
         
         
     )

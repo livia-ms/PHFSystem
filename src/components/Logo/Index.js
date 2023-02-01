@@ -14,7 +14,7 @@ function Logo() {
     <LogoContainer>
       {/* <LogoContainerImg src={logo} alt="Logo"/> */}
 
-        <h1><strong>PHF</strong> Engenharia</h1>
+        <h1>PHF Engenharia</h1>
         
     </LogoContainer>
   );

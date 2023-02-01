@@ -7,6 +7,7 @@ const HeaderContainer = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top:10px;
   background-image: #1e272e;
   color: black;
 `;

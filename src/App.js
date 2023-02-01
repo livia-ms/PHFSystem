@@ -4,8 +4,6 @@ import Home from './components/Sections/sectionHome';
 
 function App() {
   return (
-    
-
     <div>
       <Header />
       <Home />
