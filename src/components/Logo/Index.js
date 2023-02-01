@@ -13,9 +13,9 @@ function Logo() {
   return (
     <LogoContainer>
       {/* <LogoContainerImg src={logo} alt="Logo"/> */}
-      <p>
-        <strong>PHF</strong> Engenharia
-      </p>
+
+        <h1><strong>PHF</strong> Engenharia</h1>
+        
     </LogoContainer>
   );
 }

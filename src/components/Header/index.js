@@ -7,7 +7,7 @@ const HeaderContainer = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  // background-color: black;
+  background-image: linear-gradient(90deg, yellow, transparent);
   color: black;
 `;
 
