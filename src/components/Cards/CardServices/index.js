@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import imgCard from '../../../image/engenharia2.jpg';
 
 function Cards() {
   return (
@@ -10,7 +11,7 @@ function Cards() {
 
     <Card style={{ width: '18rem',
                    margin:'20px' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={imgCard} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -23,7 +24,7 @@ function Cards() {
     
     <Card style={{ width: '18rem',
                    margin:'20px' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={imgCard} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -36,7 +37,7 @@ function Cards() {
 
     <Card style={{ width: '18rem', 
                    margin:'20px' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={imgCard} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
@@ -49,7 +50,7 @@ function Cards() {
 
     <Card style={{ width: '18rem',
                    margin:'20px'  }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={imgCard} />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
