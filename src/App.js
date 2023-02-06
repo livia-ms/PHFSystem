@@ -9,7 +9,7 @@ import SetenceService from "./components/Setences/SetenceService";
 import CardWork from "../src/components/Cards/CardWork/index";
 import AboutUs from "./components/Setences/AboutUsSetence";
 import SectionAboutUs from './components/Sections/sectionAbout';
-
+import Footer from "./components/footer";
 
 function App() {
   return (
