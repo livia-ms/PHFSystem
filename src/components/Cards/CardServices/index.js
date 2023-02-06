@@ -1,6 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import imgCard from '../../../image/engenharia2.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Cards() {
   return (

@@ -8,7 +8,8 @@ import Line from "./components/Line";
 import SetenceService from "./components/Setences/SetenceService";
 import CardWork from "../src/components/Cards/CardWork/index";
 import AboutUs from "./components/Setences/AboutUsSetence";
-import SectionAboutUs from './components/Sections/sectionAbout'
+import SectionAboutUs from './components/Sections/sectionAbout';
+
 
 function App() {
   return (
