@@ -4,11 +4,9 @@ import imgCard from '../../../image/engenharia2.jpg';
 
 function Cards() {
   return (
-
     <div style={{display: 'flex',
                  justifyContent: 'center',
                  marginTop: '20px'}}>
-
     <Card style={{ width: '18rem',
                    margin:'20px' }}>
       <Card.Img variant="top" src={imgCard} />

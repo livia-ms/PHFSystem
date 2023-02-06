@@ -1,32 +1,29 @@
-import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
-import ImgEng from '../../../image/engenharia.jpg';
-import ImgEng2 from '../../../image/engenharia2.jpg';
-import './styled.css'
+import Card from "react-bootstrap/Card";
+import CardGroup from "react-bootstrap/CardGroup";
+import ImgEng from "../../../image/engenharia.jpg";
+import ImgEng2 from "../../../image/engenharia2.jpg";
+import "./styled.css";
 
-
-function GroupExample() {
+function CardWork() {
   return (
-    <CardGroup className='div'>
+    <CardGroup className="div">
       <Card>
-        <Card.Img variant="top" src={ImgEng} className="teste"/>
+        <Card.Img variant="top" src={ImgEng} className="teste" />
         <Card.Body>
           <Card.Title>Exemplo de Card</Card.Title>
-          <Card.Text>
-            Descrição do projeto
-          </Card.Text>
+          <Card.Text>Descrição do projeto</Card.Text>
         </Card.Body>
         <Card.Footer>
           <small className="text-muted">Last updated 3 mins ago</small>
         </Card.Footer>
       </Card>
       <Card>
-        <Card.Img variant="top" src={ImgEng2} className="teste"/>
+        <Card.Img variant="top" src={ImgEng2} className="teste" />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
             This card has supporting text below as a natural lead-in to
-            additional content.{' '}
+            additional content.{" "}
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -51,4 +48,4 @@ function GroupExample() {
   );
 }
 
-export default GroupExample;
+export default CardWork;
