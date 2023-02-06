@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Options = ["Home", "About Us", "Contact"];
+const Options = ["Home", "Projetos", "Serviços","Sobre Nós", "Parcerias"];
 const MenuContainer = styled.ul`
   display: flex;
 `;

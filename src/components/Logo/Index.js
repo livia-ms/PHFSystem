@@ -11,6 +11,7 @@ const LogoContainerImg = styled.img`
 
 const LogoH4 = styled.span`
   display: flex;
+  margin-right: 37em;
 `
 
 function Logo() {
