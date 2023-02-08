@@ -6,10 +6,10 @@ import Menu from '../menu';
 const HeaderContainer = styled.header`
   display: flex;
   justify-content: flex-end;
-  // align-items: center;
-  padding-top:10px;
-  background-image: #1e272e;
-  color: black;
+  align-items: center;
+  background-color: #000;
+  opacity:0.5;
+  color: #fff;
 `;
 
 const Header = () => {

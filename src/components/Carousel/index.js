@@ -1,12 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import styled from 'styled-components';
 import ImgEng from '../../image/engenharia.jpg';
 import ImgEng2 from '../../image/engenharia2.jpg';
 
-const Test = styled.img`
-width: 100vw;
-height: 100vh;
-`
 
 
 function IndividualIntervalsExample() {

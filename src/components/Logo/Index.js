@@ -1,25 +1,18 @@
 import styled from "styled-components";
+import logo from "../../image/logo.svg";
 
 const LogoContainer = styled.div`
   display: flex;
   font-size: 20px;
+  justify-content: flex-start;
+  background-color: #fff;
 `;
-
-const LogoContainerImg = styled.img`
-  margin-right: 10px;
-`;
-
-const LogoH4 = styled.span`
-  display: flex;
-  margin-right: 37em;
-`
 
 function Logo() {
   return (
-    // <LogoContainer>
-    //   {/* <LogoContainerImg src={logo} alt="Logo"/> */}
-    //   </LogoContainer>
-      <LogoH4>PHF Engenharia</LogoH4>
+    <LogoContainer>
+        <img src={logo} alt="Logo"/>
+    </LogoContainer>
 
         
   );
